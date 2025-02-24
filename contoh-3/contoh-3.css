@@ -1,0 +1,17 @@
+nav {
+  display: grid;
+  grid-template: auto / auto auto auto;
+  align-items: center;
+}
+nav .navbrand {
+  display: grid;
+  grid-auto-flow: column;
+}
+nav .brand {
+  width: auto;
+  height: 50px;
+}
+nav .navbar {
+  display: grid;
+  grid-auto-flow: column;
+}
