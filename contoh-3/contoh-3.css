@@ -1,3 +1,6 @@
+body {
+  font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+}
 nav {
   display: grid;
   grid-template: auto / auto auto auto;
@@ -7,11 +10,24 @@ nav .navbrand {
   display: grid;
   grid-auto-flow: column;
 }
-nav .brand {
+nav .navbrand img {
   width: auto;
   height: 50px;
 }
 nav .navbar {
   display: grid;
   grid-auto-flow: column;
+  list-style: none;
+}
+nav .navbar a {
+  text-decoration: none;
+}
+header {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+}
+header img {
+  width: auto;
+  height: 400px;
 }
