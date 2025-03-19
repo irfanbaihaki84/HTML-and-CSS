@@ -1,0 +1,67 @@
+body {
+  font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+}
+nav {
+  display: grid;
+  grid-template: auto / auto auto auto;
+  align-items: center;
+}
+nav .navbrand {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+}
+nav .navbrand i {
+  font-size: xx-large;
+}
+nav .navbar {
+  display: grid;
+  grid-auto-flow: column;
+  list-style: none;
+}
+nav .navbar a {
+  text-decoration: none;
+}
+header {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+}
+.container {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  place-items: center;
+  gap: 10px;
+}
+.card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 0 10px;
+  width: max-content;
+}
+.card-head {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  align-items: baseline;
+  gap: 5px;
+}
+.card-head i {
+  font-size: 1.5vw;
+}
+.shadow-box {
+  box-shadow: 2px 2px 2px #000;
+}
+.f-small {
+  font-size: 1vw;
+}
+.f-normal {
+  font-size: 2vw;
+}
+.f-large {
+  font-size: 3vw;
+}
+.f-xxl {
+  font-size: 5vw;
+}
